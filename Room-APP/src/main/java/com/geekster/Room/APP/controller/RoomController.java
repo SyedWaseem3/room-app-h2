@@ -87,6 +87,11 @@ public class RoomController {
         return roomService.deleteRoomById(id);
     }
 
+    @GetMapping("Mainak")
+    public String getTest(){
+        return "Mainak";
+    }
+
 
     //Delete by Entity
     /*@DeleteMapping("room")
